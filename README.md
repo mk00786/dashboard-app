@@ -24,3 +24,28 @@ A fully functional admin dashboard with authentication and protected routes, bui
 ---
 
 ## 📂 Folder Structure
+src/
+├── components/
+│ ├── Sidebar.jsx
+│ ├── Topbar.jsx
+│ └── PrivateRoute.jsx
+├── pages/
+│ ├── Login.jsx
+│ ├── Register.jsx
+│ └── Dashboard.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## 🚀 How to Run
+
+```bash
+npm install
+npm run dev
+
+👤 Author
+Developed by Mridul Kapoor
+
+---
