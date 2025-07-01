@@ -4,6 +4,7 @@ import Register from './pages/Register'
 import {BrowserRouter ,Routes,Route} from 'react-router-dom'
 import Dashboard from './pages/Dashboard.jsx'
 import ProtectedRoute from './components/ProtectedRoute.jsx'
+import CardGrid from './pages/CardGrid.jsx'
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
             <Dashboard/>
           </ProtectedRoute>
         }/>
+        <Route path='/cards' element={<CardGrid/>} />
       </Routes>
     </div>
     </BrowserRouter>    
